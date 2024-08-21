@@ -1,0 +1,174 @@
+:root {
+  --box--shadow: 5px 5px 10px 10px rgba(131, 179, 209, 0.5);
+  --bg--color: rgb(40, 47, 97);
+}
+body {
+  background-color: rgb(17, 28, 46);
+  color: white;
+}
+
+/* Navbar Section */
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav_bar .nav_items {
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.nav_bar .nav_items:hover {
+  border-bottom: 0.2rem solid rgb(131, 179, 209);
+}
+.nav_bar .left {
+  font-size: large;
+  font-weight: bold;
+}
+
+/* Home Section CSS */
+.home {
+  height: 80vh;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .left {
+  background-color: var(--bg--color);
+  width: 40rem;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  border: 2px solid rgb(131, 179, 209);
+  box-shadow: var(--box--shadow);
+}
+.home .right .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: powderblue; */
+}
+
+.home .right .img img {
+  /* border: 5px solid yellow; */
+  height: 350px;
+  width: 360px;
+  border-radius: 100%;
+  margin-right: 5rem;
+  animation-name: myimage;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes myimage {
+  0% {
+    border-color: blueviolet;
+    transform: translate(0, 0px);
+    box-shadow: 10px 10px 100px 50px blueviolet;
+  }
+  25% {
+    border-color: rgb(131, 179, 209);
+    box-shadow: 10px 10px 100px 50px rgb(131, 179, 209);
+  }
+  50% {
+    border-color: rgb(12, 12, 199);
+    transform: translate(0, 10px);
+    box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
+  }
+  75% {
+    border-color: rgb(130, 217, 160);
+    box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+  }
+  100% {
+    border-color: rgb(50, 55, 205);
+    transform: translate(0, 0px);
+    box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+  }
+}
+
+/* Styling of Experience section starts from here */
+.exp-items {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: var(--bg--color);
+  padding: 2rem;
+  width: 48rem;
+  border-radius: 0.9rem;
+  border: 0.15rem solid rgb(131, 179, 209);
+  box-shadow: var(--box--shadow);
+}
+/* .exp-items .left {
+  border: 1px solid brown;
+}
+.exp-items .right {
+  border: 1px solid blue;
+} */
+.exp {
+  width: 56.25rem;
+}
+.exp-items .left img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 1rem;
+}
+
+/* Skills section CSS */
+.skills {
+  margin-top: 1rem;
+  width: 56rem;
+}
+.skills .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* width: 52rem; */
+  margin: auto;
+}
+.skills .items .item {
+  width: calc(33.33%);
+  background-color: black;
+  margin: 1rem;
+  text-align: center;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  border: 0.15rem solid rgb(131, 179, 209);
+  box-shadow: var(--box--shadow);
+}
+.skills .items .item img {
+  width: 8rem;
+}
+/* Contact Me styling */
+.contact-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-icon .items {
+  background-color: black;
+  margin: 0.5rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 0.15rem solid rgb(131, 179, 209);
+  /* box-shadow: var(--box--shadow); */
+}
+.contact-icon .items:hover {
+  background-color: var(--bg--color);
+  box-shadow: var(--box--shadow);
+}
+.icons {
+  height: 2.5rem;
+  width: 2.5rem;
+  /* border-radius: 100%; */
+}

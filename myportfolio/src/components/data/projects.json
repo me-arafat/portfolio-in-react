@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1",
+        "title": "The CRUD App",
+        "imgSrc":"files/Crud.jpg",
+        "decsription":" A user-friendly CRUD application featuring a sleek and visually appealing interface. Users can effortlessly manage their data by viewing existing records, adding new entries to the table, editing previous entries, and deleting records as needed.This application is made using HTML, CSS, Javascript and React JS for its creative fronted design while for the backend, MockAPI is used which is sending and receiving requests on backend behalf. Also, libraries like React-router-dom and Axios have been used for the navigation from one screen to another."
+
+    },
+    {
+        "id":"2",
+        "title": "Rock, Paper and Scissors",
+        "imgSrc":"files/rockPaperScissors.png",
+        "decsription":"A simple yet engaging game where users can play rock-paper-scissors against the computer, following the classic real-world rules. The user selects their move, and the computer generates its own choice. The two selections are then compared, and the result is displayed to the user. After each round, the user is prompted to decide whether they'd like to play again. If they choose to continue, the game resets for another round. This fun application is built entirely using pure HTML, CSS, and JavaScript."
+
+    },
+    {
+        "id":"1",
+        "title": "The Currency Converter",
+        "imgSrc":"files/currencyConverter.png",
+        "decsription":"A sleek and intuitive currency converter app designed for ease of use, enabling users to quickly convert between various currencies with real-time exchange rates. Powered by an integrated currency converter API, it delivers instant, accurate conversions for any currency. The app's frontend is built using pure HTML, CSS, and JavaScript for a seamless user experience. With a minimalistic design, the app ensures that users can access essential features without unnecessary distractions. Additionally, the app is fully responsive, offering a smooth experience across all devices."
+    }
+]

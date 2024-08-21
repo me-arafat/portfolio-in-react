@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "role": "Trainee MERN stack developer",
+        "organisation":"Seebiz Pvt Ltd.",
+        "startDate": "Jan, 2024",
+        "endDate":"July, 2024",
+        "location": "Lahore, Pakistan.",
+        "experiences":[
+            "developed a CRUD application as a final project.",
+            "developed a simple rock, paper and scissors game.",
+            "developed a background color changing app.",
+            "developed a currency convertor app.",
+            "designed several web pages as an assignments.",
+            "attended sessions on career development, work ethics and many more."
+        ],
+        "imgSrc":"company/Seebiz.png"
+    }
+]
